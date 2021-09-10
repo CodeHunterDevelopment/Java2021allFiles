@@ -36,7 +36,9 @@ public class Java_10_FindAllRootsQuadraticEquation {
             System.out.println("Cakisik koku var x1= x2= " + x); 
         }
         
-        /*
+        /* 2. yol
+
+         */
          /*Find all roots of a quadratic equation
 			Δ= b^2-4ac
 			Δ `da 3 durum var

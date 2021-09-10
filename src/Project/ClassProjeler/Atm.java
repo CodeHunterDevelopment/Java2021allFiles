@@ -56,7 +56,8 @@ public class Atm {
 		char islem =' ';
 		
 		do {
-		System.out.println("Lutfen yapmak istediginiz islemi giriniz...\nA-Para yatirma\nB-Para cekme\nC-Para gonderme\nD-Sifre degistirme"
+		System.out.println("Lutfen yapmak istediginiz islemi giriniz...\nA-Para yatirma\nB-Para cekme\n" +
+				"C-Para gonderme\nD-Sifre degistirme"
 				+ "\nE-nBakiye sorgula\nF-Cikis");
 		islem = scan.next().toUpperCase().charAt(0);
 		
@@ -73,7 +74,6 @@ public class Atm {
 		case 'D':
 			sifreDegistir();
 			break;
-
 		case 'E':
 			bakiyeSorgula();
 			break;
@@ -160,7 +160,7 @@ System.out.println("+-------------------+\r\n"
 		double cekilenPara = scan.nextDouble();
 		if (bakiye>= cekilenPara) {
 			bakiye-=cekilenPara;
-			System.out.println("Islem tamamlandi !");
+			System.out.println("Islem tamamlandi ! Bakiyeniz : " + bakiye);
 			System.out.println("********************************\n\n");
 		}else {
 			System.out.println("Yetersiz bakiye !");
@@ -173,7 +173,7 @@ System.out.println("+-------------------+\r\n"
 		System.out.println("Lutfen yatirmak istediginiz tutari giriniz...");
 		double yatirilanPara = scan.nextDouble();
 		bakiye+=yatirilanPara;
-		System.out.println("Islem tamamlandi !");
+		System.out.println("Islem tamamlandi ! Bakiyeniz : " + bakiye);
 		System.out.println("********************************\n\n");
 	
 	}

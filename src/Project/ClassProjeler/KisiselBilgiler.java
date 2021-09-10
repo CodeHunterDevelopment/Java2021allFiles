@@ -102,24 +102,28 @@ public class KisiselBilgiler{
               System.out.println("Hatali islem yaptiniz...");
           }
 	break;
-	case "4": 
-		System.out.println("Lutfen su kriterlere uygun sifre giriniz\n" + "1-Bas harf buyuk olmali\n"
-	            + "2-Son harf buyuk olmali\n"
-				+ "3-Bosluk olmamali\n" + "4-Uzunluk 8 karakter icermeli\n");
-		String sifre=scanner.nextLine();
-		
-		boolean ilkHarfKont = sifre.charAt(0)>='A' && sifre.charAt(0)<='Z' ; 
-		boolean sonHarfKontrol=sifre.charAt(sifre.length()-1)>='a' &&
-								sifre.charAt(sifre.length()-1)<='z';
-		boolean spaceKontrol= !sifre.contains(" ");
-		boolean uzunlukKontrol = sifre.length()>=8;
-		
-		
-		if(ilkHarfKont && sonHarfKontrol && spaceKontrol && uzunlukKontrol) {
-			System.out.println("Sifre basari ile tanimlandi");
-		}else {
-			System.out.println("Islem basarisiz, Lutfen kriterlere uygun bir sifre giriniz");
-		}
+	case "4":
+		int kontrol=0;
+		do {
+			System.out.println("Lutfen su kriterlere uygun sifre giriniz\n" + "1-Bas harf buyuk olmali\n"
+					+ "2-Son harf buyuk olmali\n"
+					+ "3-Bosluk olmamali\n" + "4-Uzunluk 8 karakter icermeli\n");
+			String sifre = scanner.nextLine();
+
+			boolean ilkHarfKont = sifre.charAt(0) >= 'A' && sifre.charAt(0) <= 'Z';
+			boolean sonHarfKontrol = sifre.charAt(sifre.length() - 1) >= 'a' &&
+					sifre.charAt(sifre.length() - 1) <= 'z';
+			boolean spaceKontrol = !sifre.contains(" ");
+			boolean uzunlukKontrol = sifre.length() >= 8;
+
+
+			if (ilkHarfKont && sonHarfKontrol && spaceKontrol && uzunlukKontrol) {
+				System.out.println("Sifre basari ile tanimlandi");
+				kontrol=1;
+			} else {
+				System.out.println("Islem basarisiz, Lutfen kriterlere uygun bir sifre giriniz");
+			}
+		}while(kontrol==0);
 	break;
 	case "5":
 		System.out.println("Lutfen Kredi Karti no giriniz");

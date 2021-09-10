@@ -22,6 +22,9 @@ public class C09_ForLoopOdev01 {
 		} else {
 			System.out.println("Girilen isim palindrom degildir");
 		}
+
+
+
 		scan.close();
 	}
 }

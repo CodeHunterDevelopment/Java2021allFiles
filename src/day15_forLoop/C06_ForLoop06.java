@@ -18,7 +18,8 @@ public class C06_ForLoop06 {
 		for (int i = 0; i < kelime.length(); i++) {
 			System.out.print(kelime.substring(kelime.length()-1-i, kelime.length()-i));
 		}
-		
+
+
 		// su sekilde de yapabiliriz...
 		System.out.println("");// ustteki cozumle karismasin diye asagiya eklemek icin ekledik..
 		for (int i = kelime.length()-1; i >= 0; i--) {

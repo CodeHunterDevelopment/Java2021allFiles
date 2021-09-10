@@ -19,7 +19,7 @@ public class ArrayListMethodCreation {
 		boolean cikilsinMi=false;
 		while(!cikilsinMi) {
 		System.out.println("Lutfen bir sayi seciniz\n"
-				+ "1-Ekleme\n2-Sileme\n3-Guncelleme\n4-Listeleme\n5-SiraliListele\n6-Cikis");
+				+ "1-Ekleme\n2-Silme\n3-Guncelleme\n4-Listeleme\n5-SiraliListele\n6-Cikis");
 		String islem=scan.nextLine();
 		switch (islem) {
 		case "1": ekle();
@@ -60,6 +60,7 @@ public class ArrayListMethodCreation {
 		System.out.println("Lutfen yeni isim giriniz");
 		String yeniIsim=scan.nextLine();
 		isimler.set(siraNo-1, yeniIsim);
+
 	}
 	private static void sil() {
 		listele();

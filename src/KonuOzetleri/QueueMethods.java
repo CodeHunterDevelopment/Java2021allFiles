@@ -9,12 +9,12 @@ public class QueueMethods {
 	public static void main(String[] args) {
 		/*
 		 * Fifo : First in first out --> Elemanlar ilk eklenen ilk silinir eczane
-		 * yemekhane vs sektorlerde zaman kaydý olam elemanlarin tutulmasinda kullanilir.
+		 * yemekhane vs sektorlerde zaman kaydi olam elemanlarin tutulmasinda kullanilir.
 		  
 		 * Queue intreface'nin iki subClass constructoru ile obj creat edileblir. LinkedList ve PriorityQueue....
 		 
 		 * LinkedList constructoru ile obj creat edilirse 
-		 * elemanlar Queue icinde insertion order'e gore yani ekleme sirasina goresiralanir 
+		 * elemanlar Queue icinde insertion order'e gore yani ekleme sirasina gore siralanir
 		 
 		 * PriorityQueue constructoru ile obj creat edilirse elemanlar Queue icinde 
 		 * java'nin kendine ozel algoritmasina gore siralanir.

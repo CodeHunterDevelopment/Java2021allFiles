@@ -21,7 +21,7 @@ public class Java_14_NaturalNumberSum {
 		}
 		System.out.println("sum with for is: "+ sum); // 1275
 		
-		//Second way--2. yol
+		// Second way--2. yol
 		System.out.println("-----------------------");
 		
 		int k = 1;

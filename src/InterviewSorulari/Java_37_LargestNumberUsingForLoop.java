@@ -6,7 +6,7 @@ public class Java_37_LargestNumberUsingForLoop {
 		
 		int [] arr = {1,2,3,4,56,57,5,8};
 		
-		System.out.println(getLargest(arr, 7));
+		System.out.println(getLargest(arr, 8));
 
 	}
 	

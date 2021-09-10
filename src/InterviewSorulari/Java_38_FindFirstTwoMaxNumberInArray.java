@@ -18,8 +18,8 @@ public class Java_38_FindFirstTwoMaxNumberInArray {
 		int maxTwo = 0;
 		
 		Arrays.sort(nums);
-		System.out.println("Max 1- "+ (nums[nums.length-1]));
-		System.out.println("Max 2- "+ (nums[nums.length-2]));
+		System.out.println("Max 1- "+ (nums[nums.length-1])); // son index
+		System.out.println("Max 2- "+ (nums[nums.length-2])); // sondan 1 onceki index
 	}
 
 }

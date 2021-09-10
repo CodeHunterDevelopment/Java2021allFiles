@@ -8,15 +8,7 @@ public class Java_13_AlphabetCheck {
 
 		// Karakterin alfabe olup olmadigini kontrol ediniz...
 
-		/*
-		char c = '$';
-		
-		if((c >= 'a' && c <='z') ||(c >= 'A' && c <= 'Z')) {
-			System.out.println(c + " is in alphabet");
-		}else {
-			System.out.println(c + " is in not alphabet");
-		}
-		*/
+		// 1. yol
 		Scanner scan= new Scanner(System.in);
 		System.out.println("Lutfen bir harf giriniz");
 		char harf= scan.next().charAt(0);
@@ -27,11 +19,23 @@ public class Java_13_AlphabetCheck {
 		}
 		scan.close();
 		
-		//2. yol 
+		// 2. yol
 		System.out.println("\nLutfen bir harf giriniz");
 		char harf1= scan.next().charAt(0);
 		System.out.print(harf1 >= 'a' && harf1 <='z' ||(harf1 >= 'A' && harf1 <= 'Z') ? harf1 + " is in alphabet" : harf1 + " is in not alphabet" );
+
+	/*  // 3. yol
+		char c = '$';
+
+		if((c >= 'a' && c <='z') ||(c >= 'A' && c <= 'Z')) {
+			System.out.println(c + " is in alphabet");
+		}else {
+			System.out.println(c + " is in not alphabet");
+		}
+		*/
+
+
 	}
-	
+
 
 }

@@ -23,9 +23,9 @@ public class Q06 {
         System.out.print("pozitif bir tam sayı giriniz : ");
         int sayi = scan.nextInt();
 
-        for (int baba = 1; baba <=sayi; baba++) {//satır kontrolu
-            for (int ogul = 1; ogul <=sayi; ogul++) {//sutun kontrolu
-                System.out.print(" "+(baba*ogul));
+        for (int i = 1; i <=sayi; i++) {//satır kontrolu
+            for (int j = 1; j <=sayi; j++) {//sutun kontrolu
+                System.out.print(" "+(i*j));
             }
             System.out.println();//2 boyutlu for da iç ve dış döngü arasına satır atlaması için boş println koyulur
         }
