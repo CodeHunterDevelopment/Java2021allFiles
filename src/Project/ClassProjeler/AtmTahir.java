@@ -101,12 +101,12 @@ public class AtmTahir {
         int kontrol = 0;
         do {
             System.out.println("Lutfen degistirmek istediginiz sifreyi giriniz : ");
-            int degistirilecekSifre = scan.nextInt();
+            int sifre = scan.nextInt();
             System.out.println("Lutfen yeni sifrenizi giriniz : ");
             int yeniSifre = scan.nextInt();
             scan.nextLine();
 
-            if (degistirilecekSifre != yeniSifre) {
+            if (sifre != yeniSifre) {
                 System.out.println(" Isleminiz basariyla gerceklestirildi...");
                 System.out.println("**************************************************\n");
                 kontrol = 1;

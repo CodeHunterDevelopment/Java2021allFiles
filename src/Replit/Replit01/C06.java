@@ -4,7 +4,7 @@ public class C06 {
 
 	public static void main(String[] args) {
 		/*
-		 * Verilen 5 sayinin ortalamasiniz hesaplayan java kodunu yaziniz.
+		 * Verilen 5 sayinin ortalamasini hesaplayan java kodunu yaziniz.
 		 * 
 		 * Ortalamasi alinacak Sayilar : 22, 20, 30, 28, 50
 		 * 

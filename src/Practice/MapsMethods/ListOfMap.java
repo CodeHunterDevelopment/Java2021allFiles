@@ -4,14 +4,14 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-public class ListOfMap {
+public class  ListOfMap {
     public static void main(String[] args) {
         //MAplarde bir keye karşılık birden fazla value olabilir mi?
 
-			/*  meyveler			--> elma
+			/*  meyveler	--> elma
 								armut
 								çilek
-				sebzeler		-->kabak
+				sebzeler	--> kabak
 								patlıcan
 								marul
 								ıspanak
@@ -42,6 +42,9 @@ public class ListOfMap {
         List<String> vitaminler=Arrays.asList("a","b","c","d");
         karisik.put("vitaminler", vitaminler);
         System.out.println(karisik);
+        // {sebzeler=[kabak, patlıcan, marul, ıspanak], meyveler=[elma, armut, çilek], vitaminler=[a, b, c, d]}
+
+        System.out.println(karisik.get("sebzeler").get(1)); // patlican
 
     }
 

@@ -19,6 +19,10 @@ public class C07 {
 
 		int a = 3;
 		int b = 5;
+		int c = 5; // gecici temp atadik...
+
+		b=a;
+		a=c;
 
 		System.out.println("a=" + a);
 		System.out.println("b=" + b);
