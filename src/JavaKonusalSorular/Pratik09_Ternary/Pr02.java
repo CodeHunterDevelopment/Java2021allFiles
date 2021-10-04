@@ -2,10 +2,11 @@ package CoreJavaDay50.day08_ternaryOperator;
 
 import java.util.Scanner;
 
-public class C4_Ternary02 {
+public class Pr02 {
 
 	public static void main(String[] args) {
-		// Soru1 ) Kullanicidan iki sayi alin ve buyuk olmayan sayiyi yazdirin
+
+		// Kullanicidan iki sayi alin ve buyuk olmayan sayiyi yazdirin
 
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Lutfen iki sayi giriniz");

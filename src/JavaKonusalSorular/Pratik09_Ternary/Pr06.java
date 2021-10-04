@@ -2,7 +2,7 @@ package JavaKonusalSorular.Pratik09_Ternary;
 
 import java.util.Scanner;
 
-public class Ter03 {
+public class Pr06 {
 
     public static void main(String[] args) {
         // Kullanicidan bir pozitif tamsayi girmesini isteyin,

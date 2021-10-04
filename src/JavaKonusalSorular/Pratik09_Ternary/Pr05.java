@@ -2,9 +2,10 @@ package JavaKonusalSorular.Pratik09_Ternary;
 
 import java.util.Scanner;
 
-public class Ter02 {
+public class Pr05 {
 
     public static void main(String[] args) {
+
         // Kullanicidan bir character girmesini isteyiniz
         // Character harf ise kucuk harf olup olmadigini kontrol ediniz
         // Kucuk harf ise ekrana "Kucuk Harf" yazdiriniz

@@ -2,7 +2,7 @@ package JavaKonusalSorular.Pratik09_Ternary;
 
 import java.util.Scanner;
 
-public class Ter01 {
+public class Pr04 {
 
     public static void main(String[] args) {
 

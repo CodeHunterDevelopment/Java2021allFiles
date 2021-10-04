@@ -2,10 +2,11 @@ package JavaKonusalSorular.Pratik09_Ternary;
 
 import java.util.Scanner;
 
-public class C5_Ternary03 {
+public class Pr03 {
 
 	public static void main(String[] args) {
-		// Soru 3 Kullanicidan bir sayi alin ve sayinin mutlak degerini yazdirin
+
+		// Kullanicidan bir sayi alin ve sayinin mutlak degerini yazdirin
 
 		
 		Scanner scan=new Scanner(System.in);

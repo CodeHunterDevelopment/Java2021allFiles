@@ -1,7 +1,7 @@
 package JavaKonusalSorular.Pratik09_Ternary;
 import java.util.Scanner;
 
-public class C6_NestedTernary01 {
+public class Pr09 {
 
 	public static void main(String[] args) {
 		// Kullanicidan bir tamsayi alin ve sayi 10 dan kucukse "Rakam veya negatif sayi" ,
