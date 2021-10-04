@@ -18,5 +18,9 @@ public class RG44 {
     Çıktı : 1
     */
 
+        String isim1="ali";
+        String isim2="veli";
+
+        System.out.println(isim1.concat(isim2));
     }
 }
