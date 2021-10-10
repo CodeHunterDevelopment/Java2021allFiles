@@ -17,7 +17,7 @@ public class CollectionsSetMethods {
 		
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		
-		// 1-add() methodu ; Set’e eleman ekler
+		// 1-add() methodu ; Set e eleman ekler
 		set1.add("F");
 		set1.add("A");
 		set1.add("B");
@@ -29,13 +29,13 @@ public class CollectionsSetMethods {
 		
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		
-		// 2-addAll(coll); istenen collection’in tum elemanlarini ekler
+		// 2-addAll(coll); istenen collection in tum elemanlarini ekler
 		// Yeni bir collections oluturup set1 e ekleme yapalim...
 		
 		Set<String> set2 = new HashSet<>(Arrays.asList("1","2","3"));
 		
-		System.out.println("Set2 Collecion : " + set2);
-		// Set2 Collecion : [1, 2, 3]
+		System.out.println("Set2 Collection : " + set2);
+		// Set2 Collection : [1, 2, 3]
 		
 		set1.addAll(set2);
 		System.out.println("2-addAll methodu : " + set1); 
@@ -50,14 +50,14 @@ public class CollectionsSetMethods {
 		
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		
-		// 4-contains(eleman) methodu ; istenen eleman sett’te varsa true, yoksa false dondurur
+		// 4-contains(eleman) methodu ; istenen eleman set te varsa true, yoksa false dondurur
 		set1.contains("X");
 		System.out.println("4-contains(eleman) methodu : " + set1.contains("X"));
 		// 4-contains(eleman) methodu : true
 		
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		
-		// 5-containsAll(coll) methodu ; istenen coll’in tumu aranan sette var ise true, yoksa false dondurur
+		// 5-containsAll(coll) methodu ; istenen coll in tumu aranan sette var ise true, yoksa false dondurur
 		
 		System.out.println("5-containsAll(coll) methodu : " + set1.contains(set2));
 		// 5-containsAll(coll) methodu : false
@@ -70,7 +70,7 @@ public class CollectionsSetMethods {
 		
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		
-		// 6-equals(set) methodu ; istenen set’le tum elemanlar ayni ise true, yoksa false dondurur
+		// 6-equals(set) methodu ; istenen set le tum elemanlar ayni ise true, yoksa false dondurur
 		System.out.println("6-equals(set) methodu : " + set3.equals(set4)); // true
 		// 6-equals(set) methodu : true
 		
@@ -96,14 +96,14 @@ public class CollectionsSetMethods {
 		
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		
-		// 9-removeAll(coll) methodu ; coll’nin tum elemanlarini bulursa siler ve true dondurur, bulamazsa false dondurur
+		// 9-removeAll(coll) methodu ; collï¿½nin tum elemanlarini bulursa siler ve true dondurur, bulamazsa false dondurur
 		System.out.println("9-removeAll(coll) methodu : " + set3.removeAll(set4)); 
 		// 9-removeAll(coll) methodu : true
 		System.out.println("9-removeAll(coll) methodundan sonra : " + set3); // []
 	
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		
-		// 10-size() methodu ; set’in eleman sayisini verir
+		// 10-size() methodu ; set in eleman sayisini verir
 		
 		System.out.println("10-size() methodu : " + set1.size());
 		// 10-size() methodu : 9

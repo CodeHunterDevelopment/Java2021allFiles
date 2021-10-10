@@ -49,7 +49,7 @@ public class LinkedListMethods {
 		
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		
-		// 2-add(1,�A�); istenen index�e istenen elemani ekler
+		// 2-add(1,"A"); istenen index e istenen elemani ekler
 		ll1.add(2, "sedef");
 		System.out.println("2-add(Index,ekle) methodu : " + ll1); 
 		// 2-add(Index,ekle) methodu : [erdem, mehmet, sedef, samet, said, yagmur, merve]
@@ -57,14 +57,14 @@ public class LinkedListMethods {
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		LinkedList<String> ll2 = new LinkedList<>(Arrays.asList("X", "Y"));
 
-		// 3-addAll(coll); istenen collection�in tum elemanlarini ekler
+		// 3-addAll(coll); istenen collection in tum elemanlarini ekler
 		ll1.addAll(ll2); // ll1 sonuna ll2 de ki X ve Y node larini ekler
 		System.out.println("3-addAll methodu : " + ll1);
 		// 3-addAll methodu : [erdem, mehmet, sedef, samet, said, yagmur, merve, X, Y]
 		
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		
-		// 4-addAll(addAll(2, coll); istenen collection�in tum elemanlarini istenen index�e ekler
+		// 4-addAll(addAll(2, coll); istenen collection in tum elemanlarini istenen index e ekler
 		ll1.addAll(3, ll2); // ll1 de ll2 de ki X ve Y node larini 3. index e ekler
 		System.out.println("4-addAll(index, coll) methodu : " + ll1);
 		// 4-addAll(index, coll) methodu : [erdem, mehmet, sedef, X, Y, samet, said, yagmur, merve, X, Y]

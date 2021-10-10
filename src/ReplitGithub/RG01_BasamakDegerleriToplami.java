@@ -7,11 +7,11 @@ public class RG01_BasamakDegerleriToplami {
     public static void main(String[] args) {
 
     /*1---
-    Sayının Sayı değerlerinin toplamasını yapan Java kodu yazınız.
+    Sayinin Sayi degerlerinin toplamasiniyapan Java kodu yaziniz.
 
     Test Data
     34
-    Beklenen Çıktı
+    Beklenen Cikti
     7
     */
 
