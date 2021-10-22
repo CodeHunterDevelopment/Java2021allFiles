@@ -18,7 +18,7 @@ public class RG67_2TreeSetKarsilastirmasi {
 
     Beklenen Çıktı:
     1. TreeSet: [kirmizi,mavi,sari,yesil]
-    2. TreeSet: [mavi,pembe,turuncu,yesil
+    2. TreeSet: [mavi,pembe,beyaz,yesil
 
     Karsilastirma Sonucu:
 
